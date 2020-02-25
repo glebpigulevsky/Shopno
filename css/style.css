@@ -1,0 +1,516 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+div.header{
+    width: 100%;
+    height: 806px;
+    
+    background-color: #eff0f2;
+}
+div.header__content{
+    width: 1440px;
+    height: 806px;
+    background-color: #eff0f2;
+    margin-left:-720px ;
+    position: absolute;
+    left: 50%;
+}
+div.header__logoRectangle{
+    width: 113px;
+    height: 46px;
+    border: 5.54px solid #170f1c;
+    position: relative;
+    top:8%;
+    left:10.45%;
+}
+div.header__logo{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    filter: drop-shadow(0 0 1px rgba(21,21,22,0.75));
+    text-transform: uppercase;
+    margin-top:9px;
+    
+}
+div.header__logo>span{
+    font-size:21px;
+    color: #77efe5;
+}
+div.header__text{
+    font-size: 45px;
+    letter-spacing: 0.041em;
+    line-height: 28px;
+    color: #505050;
+    font-family: "Montserrat";
+    font-weight: 700;
+    text-align: center;
+    filter: drop-shadow(3.517px 8.285px 5px rgba(0,0,0,0.24));
+    text-transform: uppercase;
+    position: relative;
+    top:33.8%;
+}
+div.header__text span{
+    
+    filter: drop-shadow(3.517px 8.285px 5px rgba(0,0,0,0.24));
+}
+div.header__text>p{
+    margin-top: 30px;
+}
+div.header__textReqt1{
+    width: 255px;
+    height: 53px;
+    background-color:rgba(118, 244, 234, 0.5);
+    position: fixed;
+    left: 54.5%;
+    top: -15%;
+}
+div.header__textReqt2{
+    width: 236px;
+    height: 53px;
+    background-color: rgba(118, 244, 234, 0.5);
+    position: fixed;
+    left: 15.55%;
+    top: 54%;
+}
+div.header__button{
+    width: 232px;
+    height: 53px;
+    border-radius: 2px;
+    border: 2px solid #000000;
+    position: relative;
+    top:53%;
+    left:42%;
+    text-align: center;
+    padding-top: 10px;
+}
+a.header__buttonLink{
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+div.header__img{
+    position: relative;
+    top:48.5%;
+    left:77.6%;
+}
+div.aboutUs{
+    width: 100%;
+    height: 985px;
+    background-color: #f8fafa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 129px;
+       
+}
+div.aboutUs__contentHeader>p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Merriweather";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+div.aboutUs__contentHeader>h3{
+    font-size: 38px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+div.aboutUs__contentPict{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 107px;
+}
+div.aboutUs__contentPictText{
+    width: 590px;
+    height: 81px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Raleway";
+    font-weight: 400;
+    margin-top: 15px;
+    padding-left: 119px;
+}
+div.aboutUs__contentPict>img{
+    padding-right: 4px;
+}
+
+div.aboutUs__contentPictText>h3{
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Merriweather";
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+div.work{
+    width: 100%;
+    height: 1163px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 129px;
+}
+div.work__title>p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Merriweather";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+div.work__title>h3{
+    font-size: 38px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+div.work__pict{
+    display: grid;
+    grid-template-rows: 359px 359px;
+    grid-template-columns: 370px 370px 370px;
+    grid-column-gap: 15px;
+    grid-row-gap: 14px;
+    padding-top: 114px;
+    
+}
+.pictPeople{
+    position:relative; 
+    z-index: 5;
+}
+div.peopleContent{
+    height: 240px;
+    width: 336px;
+    position:absolute;
+    left:5%;
+    bottom:0;
+    right:0;
+    top:41%;
+    background-image: url(../img/Shape\ 1.png);
+    padding-top:63px;
+    padding-left:31px;
+
+    
+    display:none;
+    z-index:20;
+}
+div.peopleContent>h2{
+    font-size: 20px;
+letter-spacing: 1px;
+line-height: 24px;
+color: #272727;
+font-family: "Merriweather";
+font-weight: 700;
+
+margin-bottom: 15px;
+}
+div.peopleContent>h2>span{
+    font-family: "Merriweather";
+    font-style: italic;
+    font-weight: 300;
+    color: #767070;
+    font-size: 15px;
+}
+i.fa-envelope{
+    text-decoration: none;
+    color: grey;
+}
+div.peopleContent>p{
+    width: 246px;
+height: 71px;
+font-size: 16px;
+letter-spacing: 0px;
+line-height: 24px;
+color: #000000;
+font-family: "Raleway";
+font-weight: 400;
+margin-bottom: 15px;
+}
+.pictPeople:hover .peopleContent{
+    display:block;
+}
+div.work__pict1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    overflow: hidden;
+    
+    background-image: url(../img/1.png);
+}
+div.work__pict2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    overflow: hidden;
+    background-image: url(../img/2.png);
+    background-size: cover;
+}
+div.work__pict3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    overflow: hidden;
+    background-image: url(../img/3.png);
+}
+div.work__pict4{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    overflow: hidden;
+    
+    background-image: url(../img/4.png);
+}
+div.work__pict5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    overflow: hidden;
+    background-image: url(../img/5.png);
+}
+div.work__pict6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    overflow: hidden;
+    background-image: url(../img/6.png);
+
+}
+
+div.team{
+    width: 100%;
+    height: 1362px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 101px;
+}
+
+
+div.team__contentHeader>p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Merriweather";
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+div.team__contentHeader>h3{
+    font-size: 38px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+div.team__pict{
+    display: grid;
+    grid-template-rows: 440px 440px;
+    grid-template-columns: 370px 370px 370px;
+    grid-column-gap: 15px;
+    grid-row-gap: 14px;
+    padding-top: 114px;
+    
+}
+
+div.team__pict1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+    overflow: hidden;
+    background-image: url(../img/t1.png);
+}
+div.team__pict2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+    overflow: hidden;
+    background-image: url(../img/t2.png);
+    background-size: cover;
+}
+div.team__pict3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+    overflow: hidden;
+    background-image: url(../img/t3.png);
+}
+div.team__pict4{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    overflow: hidden;
+    
+    background-image: url(../img/t4.png);
+}
+div.team__pict5{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    overflow: hidden;
+    background-image: url(../img/t5.png);
+}
+div.team__pict6{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    overflow: hidden;
+    background-image: url(../img/t1.png);
+
+}
+
+div.contact{
+    width: 100%;
+    height: 702px;
+    background-color: #ffffff;
+    display: flex;
+    padding-top: 101px;
+    
+}
+div.container{
+    width: 1440px;
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 18px;
+    background-image: url(../img/contact__bg.png);
+    background-position: -80% 0%;
+    background-size: 100%;
+    
+    margin: 0px auto;
+}
+div.contact__form{
+    width: 614px;
+    height: 460px;
+    filter: drop-shadow(0 0 15px rgba(21,21,21,0.12));
+    background-color: rgba(2, 22, 35, 0.7);
+    padding: 15px 34px;
+    color:grey;
+    font-size: 15px;
+    line-height: 24px;
+    color: grey;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+div.contact__map{
+    margin-left: 25px;
+    width: 500px;
+    height: 461px;
+    padding: 32px 22px 22px 22px;
+    filter: drop-shadow(0 0 1.5px rgba(21,21,21,0.16));
+    background-color: rgba(2, 22, 35, 0.7);
+}
+div.contact__mapText{
+    font-size: 15px;
+    line-height: 24px;
+    color: grey;
+    font-family: "Raleway";
+    font-weight: 400;
+}
+div.contact__mapText>a{
+    color: grey
+}
+div.contact__form>input{
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom: 1px grey solid;
+    background: none;
+    width: 100%;
+    
+    
+}
+div.contact__form>p{
+margin-top: 26px;
+margin-bottom: -9px;
+ 
+}
+
+div.contact__form>input.btn{
+    width: 244px;
+    height: 53px;
+    border-radius: 2px;
+    background-color: #6eeee4;
+    font-size: 18px;
+    letter-spacing: 2px;
+    line-height: 28px;
+    color: #000000;
+    font-family: "Montserrat";
+    font-weight: 400;
+    margin-top: 53px;
+}
+div.footer{
+    width: 100%;
+    height:317px;
+    background-color: #262b2e;
+}
+div.ft__container{
+    width: 1440px;
+    margin-left:-720px ;
+    position: absolute;
+    left: 50%;
+}
+div.footer__content>h3{
+    font-size: 16px;
+letter-spacing: 0px;
+line-height: 25px;
+color: #ffffff;
+font-family: "Raleway";
+font-weight: 400;
+text-transform: uppercase;
+text-align: center;
+margin-bottom: 10px;
+}
+div.linksBtn>div{
+    width: 45px;
+height: 40px;
+background-color: #424648;
+margin-right: 6px;
+}
+div.linksBtn{
+    margin-left: 13px;
+}
+.fab{
+    color:#8d8d8d;
+    padding-top:13px;
+    padding-left:16px;
+}
+div.linksBtn{
+    display: flex;
+    justify-content: center;
+    
+}
+div.footer__content{
+  padding-top: 88px;
+}
+div.linksBtn>div:hover{
+    background-color: #6eeee4;
+}
