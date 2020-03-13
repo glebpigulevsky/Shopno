@@ -16,22 +16,23 @@ let wp1 = document.getElementById('work__pict1'),
     }
 
     function openWp1(){
-        addImgPup().setAttribute('src', '/img/1.png');
+ addImgPup().setAttribute('src', 'img/1.png');
     };
     function openWp2(){
-        addImgPup().setAttribute('src', '/img/2.png');
+        addImgPup().setAttribute('src', 'img/2.png');
     };
     function openWp3(){
-        addImgPup().setAttribute('src', '/img/3.png');
+        addImgPup().setAttribute('src', 'img/3.png');
     };
     function openWp4(){
-        addImgPup().setAttribute('src', '/img/4.png');
+        addImgPup().setAttribute('src', 'img/4.png');
     };
     function openWp5(){
-        addImgPup().setAttribute('src', '/img/5.png');
+        addImgPup().setAttribute('src', 'img/5.png');
     };
     function openWp6(){
-        addImgPup().setAttribute('src', '/img/6.png');
+        addImgPup().setAttribute('src', 'img/6.png');
+
     };
 
 
