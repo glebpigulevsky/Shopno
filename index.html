@@ -58,18 +58,23 @@
          
     </div>
 
+
+    <div class="popup__overlay hidden" id='popup__div' onclick="closePup()">
+
+    </div>
+
+
     <div class="work">
-        <div class="work__title">
+        <div class="work__title" onclick="closePup()">
             <h3>featured works</h3><p>Lorem ipsum dolor sit amet event landing template</p>
         </div>
         <div class="work__pict">
-            <div class="work__pict1"></div>
-            <div class="work__pict2"></div>
-            <div class="work__pict3"></div>
-            <div class="work__pict4"></div>
-            <div class="work__pict5"></div>
-            <div class="work__pict6"></div>
-          
+            <div class="work__pict1" id="work__pict1" onclick="openWp1()"></div>
+            <div class="work__pict2" id="work__pict2" onclick="openWp2()"></div>
+            <div class="work__pict3" id="work__pict3" onclick="openWp3()"></div>
+            <div class="work__pict4" id="work__pict4" onclick="openWp4()"></div>
+            <div class="work__pict5" id="work__pict5" onclick="openWp5()"></div>
+            <div class="work__pict6" id="work__pict6" onclick="openWp6()"></div>
         </div>
     </div>
 
@@ -179,7 +184,9 @@
                     <a href="mailto:info@designagency.net">E-mail: info@designagency.net</a>
                     
                 </div><br>
+                <div id="yandex__map">
                 <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A557d864312d5c0f62ca665306908b7334c5e73295759d11cc13b9b19ac931510&amp;width=455&amp;height=223&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
             </div>
         </div>
     </div>
@@ -197,6 +204,6 @@
             </div>
         </div>
     </div>
-
+    <script src="scripts/popup.js"></script>
 </body>
 </html>
