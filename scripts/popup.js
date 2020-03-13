@@ -16,7 +16,7 @@ let wp1 = document.getElementById('work__pict1'),
     }
 
     function openWp1(){
-        addImgPup().setAttribute('src', 'img/1.png');
+ addImgPup().setAttribute('src', 'img/1.png');
     };
     function openWp2(){
         addImgPup().setAttribute('src', 'img/2.png');
@@ -32,6 +32,7 @@ let wp1 = document.getElementById('work__pict1'),
     };
     function openWp6(){
         addImgPup().setAttribute('src', 'img/6.png');
+
     };
 
 
