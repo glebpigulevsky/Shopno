@@ -186,6 +186,12 @@
         left: 15%;
         top:34%;
     }
+	div.peopleContent {
+    height: 261px;
+    width: 278px;
+    left: 3%;
+    top: 9%;
+   }
     div.header{
         height: 619px;
     }
